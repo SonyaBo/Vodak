@@ -1,0 +1,46 @@
+/* style_index.css */
+
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the body height to 100% of the viewport height */
+}
+
+h1 {
+  color: #295AAE;
+}
+
+a {
+  color: #295AAE;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-image: url('/public/background_image1.jpg'), url('/public/background_image2.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  a {
+    font-size: 0.8em;
+  }
+}
